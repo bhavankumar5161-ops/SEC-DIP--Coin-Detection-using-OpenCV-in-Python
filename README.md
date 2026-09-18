@@ -1,15 +1,17 @@
 # SEC-DIP--Coin-Detection-using-OpenCV-in-Python
 
-Name : P.Bhavankumar
-Reg.No: 212225240026
+## Name : P.Bhavankumar
+# Reg.No: 212225240026
 
 
-<img width="950" height="500" alt="514713049-8c9bd273-12cc-41b8-b495-62d68f760adf" src="https://github.com/user-attachments/assets/f5b972d3-bd8b-4524-bd61-d1c60749c168" />
 
 Aim:
 To develop an AI-based image processing system that can automatically detect and count coins in an image using Python and OpenCV, while visualizing all the intermediate processing steps such as grayscale conversion, blurring, edge detection, and contour detection.
 
-OBJECTIVE:
+
+
+
+# OBJECTIVE:
 To apply fundamental computer vision techniques to identify circular objects (coins).
 
 To understand the use of image preprocessing and feature extraction using OpenCV.
@@ -18,7 +20,9 @@ To display all intermediate outputs to explain how detection is achieved.
 
 To count and label the number of coins accurately.
 
-ALGORITHM:
+
+
+# ALGORITHM:
 Start
 
 Input the image (coins image file).
@@ -37,8 +41,11 @@ Filter Contours based on area (to remove small noise).
 
 9.Count the total number of coins detected.
 
-End.
-Program:
+
+### Program:
+
+
+```
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
@@ -107,7 +114,15 @@ axs[4].axis("off")
 
 plt.tight_layout()
 plt.show()
+
+
+```
+
+
+
 Output:
+
+
 
 <img width="950" height="500" alt="image" src="https://github.com/user-attachments/assets/bd911670-b272-4e03-b779-6f386f619690" />
 
